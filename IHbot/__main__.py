@@ -19,17 +19,15 @@ from IHbot.modules.helper_funcs.chat_status import is_user_admin
 from IHbot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, my name is {}!
+Hello lavda {}, my name is {}!
 
-I'm a group manager bot maintained by [this wonderful person](tg://user?id={}). I'm built in python3, using the \
-python-telegram-bot library \
+I'm a group manager bot maintained by [this wonderful person](tg://user?id={}). I'm buit in html, using the \
+html-telegram-bot library and if u want to make such bots with html just google it 😂 \
 
 
 You can find the list of available commands with /help.
 
-[Click here to add me in your groups](https://telegram.me/TheShinChan_Bot?startgroup=add)
 
-Free Hai Bro!
 """
 
 HELP_STRINGS = """
@@ -51,7 +49,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-But It is Totally Free !!"""
+But It is Totally Free !! if u want to want to donate still donate to poor orphan😁"""
 
 IMPORTED = {}
 MIGRATEABLE = []
